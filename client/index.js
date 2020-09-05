@@ -35,7 +35,7 @@ async function onKeyUp(e) {
         return res.json();
     })
     .then(autocompleteWords => {
-        // 가져온 자동완성 단어 그리기
+        // 서버에서 가져온 자동완성 단어 그리기
         showAutocompleteWords(autocompleteWords);
     });
 }
